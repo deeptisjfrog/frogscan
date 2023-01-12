@@ -17,7 +17,7 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'install'
-    options: '-DXms=1024m -DXmx=100m -DMaxPermSize=100m'
+    options: '-DXms=1024m -DXmx=10m -DMaxPermSize=10m'
     artifactoryResolverService: 'hts2-new'
     targetResolveReleaseRepo: 'deepthi-libs-release'
     targetResolveSnapshotRepo: 'deepthi-libs-snapshot'
